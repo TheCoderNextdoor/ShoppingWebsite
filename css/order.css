@@ -1,0 +1,12 @@
+input{
+    width: 96%;
+}
+textarea{
+    width: 98%;
+}
+td{
+    border: none;
+}
+select{
+    width:30%;
+}

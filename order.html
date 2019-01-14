@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order</title>
+    <link rel="stylesheet" href="./css/order.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/cardvalidate.js"></script>
+    <script>var date = new Date();</script>
+</head>
+
+<body>
+    <h2>Enter delivery details in the form below</h2>
+    <form action="#" method="GET">
+        <span style="background-color:rgb(34, 85, 255); color:white">Delivery Address</span>
+        <table border="solid black">
+            <tr>
+                <td><input type="text" name="" id="" required placeholder="Enter name"></td>
+                <td><input type="number" name="" id="mobile" required placeholder="10 Digit mobile no."></td>
+            </tr>
+            <tr>
+                <td><input type="number" id="pin" required placeholder="Pincode"></td>
+                <td><input type="email" name="" id="email" required placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <textarea name="" id="" required placeholder="Address"></textarea>
+                </td>
+            </tr>
+        </table>
+
+        <span style="background-color:rgb(34, 85, 255); color:white">Payment Options</span>
+        <table border="solid black" style="border-radius:8px;">
+            <tr>
+                <td><input type="radio" name="method" id=""></td>
+                <td colspan="2">Credit Card</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><input type="number" name="" id="card" placeholder="Enter card no."></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    Exp:
+                    <select name="" id="">
+                        <optgroup>MM</optgroup>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    <select name="" id="year">
+                        <optgroup>YY</optgroup>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                    </select>
+                </td>
+                <td>
+                    <input style="width:94%;" id="cvv" type="number" placeholder="CVV"/>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="method"></td>
+                <td>Net Banking</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="method"></td>
+                <td>Cash On Delivery</td>
+                <td><input type="submit" value="Make Payment"></input></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

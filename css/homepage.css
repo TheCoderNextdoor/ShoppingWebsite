@@ -1,0 +1,12 @@
+tr>th{
+    background-color: white;
+    color:black;
+}
+table{
+    background-color: pink;
+    border: dotted lightblue;
+    width:100%;
+}
+td{
+    border: dotted lightblue;
+}
